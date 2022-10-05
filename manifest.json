@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Google Chat Links",
+    "version": "1.0.0",
+    "description": "Copy direct links for Google Chat messages in one click. Supports direct messages, group chats and spaces.",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/logo-16.png",
+            "32": "/images/logo-32.png",
+            "48": "/images/logo-48.png",
+            "128": "/images/logo-128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/logo-16.png",
+        "32": "/images/logo-32.png",
+        "48": "/images/logo-48.png",
+        "128": "/images/logo-128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://*.google.com/*"],
+        "css": ["content.css"],
+        "js": ["content.js"],
+        "run_at": "document_idle",
+        "all_frames": true
+    }],
+    "author": "Avaneesh Tripathi"
+}
