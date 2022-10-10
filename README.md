@@ -1,5 +1,7 @@
 # Copy Google Chat Links
 
+WebStore URL: [Link Here](https://chrome.google.com/webstore/detail/copy-google-chat-links/egdhbgdninkgcdfdoclpbphljjhaiphc)
+
 A chrome extension to enable copy the direct links to google chat messages.
 This supports for direct messages, group chats and spaces.
 
