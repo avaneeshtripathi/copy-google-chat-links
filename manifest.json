@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Copy Google Chat Links",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Copy direct links for Google Chat messages in one click. Supports direct messages, group chats and spaces.",
     "permissions": ["activeTab", "storage"],
     "action": {
