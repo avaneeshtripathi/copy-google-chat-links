@@ -29,5 +29,18 @@
     color: #7da6ff !important;
     font-size: 1.2rem !important;
     font-weight: 700 !important;
-    
+}
+
+.customCopyLinkButton {
+    border: unset !important;
+    margin: unset !important;
+    background: unset !important;
+    cursor: pointer !important;
+    padding-inline: 4px !important;
+    padding-top: 4px !important;
+    border-radius: 50% !important;
+}
+
+.customCopyLinkButton:hover {
+    background-color: var(--dialog-highlighted-bg-color) !important;
 }
